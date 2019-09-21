@@ -140,7 +140,7 @@ class GameCollectionController: UICollectionViewController, UICollectionViewDele
         let winnerLabel = UILabel()
         winnerLabel.frame.size = CGSize(width: 300, height: 100)
         winnerLabel.isHidden = false
-        winnerLabel.text = "Congratulations"
+        winnerLabel.text = "YOU WIN!"
         winnerLabel.font = UIFont(name: "Helvetica", size: 30)
         winnerLabel.textAlignment = .center
         winnerLabel.textColor = UIColor.white
@@ -150,7 +150,7 @@ class GameCollectionController: UICollectionViewController, UICollectionViewDele
         
         let backButton = UIButton()
         backButton.frame.size = CGSize(width: 300, height: 100)
-        backButton.setTitle("Back to Home menu", for: .normal)
+        backButton.setTitle("BACK TO MENU", for: .normal)
         backButton.titleLabel?.font = UIFont(name: "Helvetica", size: 30)
         backButton.titleLabel?.textAlignment = .center
         backButton.titleLabel?.numberOfLines = 0
